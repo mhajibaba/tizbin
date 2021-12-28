@@ -43,3 +43,11 @@ The default admin username and password are:
  - username: *admin*
  - password: *tizbin*
 ***
+
+## UI
+### stages
+![Alt text](/docimages/stages.png "Tizbin UI Stage")
+
+### dashboard
+![Alt text](/docimages/dashboard.png "Tizbin UI Dashboard")
+
