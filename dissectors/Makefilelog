@@ -1,0 +1,6 @@
+# Makefilelog
+#
+# $Id:  $
+#
+
+CFLAGS += -DLOG_DIS_VAR_NAME=$(DIS_NAME)_log_id

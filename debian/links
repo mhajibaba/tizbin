@@ -1,0 +1,6 @@
+opt/tizbin/bin/tizbin usr/bin/tizbin
+opt/tizbin/bin/mfbc usr/bin/mfbc
+opt/tizbin/bin/mfile usr/bin/mfile
+opt/tizbin/bin/mpaltalk usr/bin/mpaltalk
+opt/tizbin/bin/mwmail usr/bin/mwmail
+opt/tizbin/bin/trigcap usr/bin/trigcap

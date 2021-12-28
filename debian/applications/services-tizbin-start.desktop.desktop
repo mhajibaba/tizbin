@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=tizbin start
+GenericName=tizbin Service
+Comment=service tizbin start
+TryExec=/etc/init.d/tizbin
+Exec=sh -c "sudo service tizbin start; bash"
+Icon=utilities-terminal
+Terminal=true
+Categories=System;Monitor;
+Name[en_US]=services-tizbin-start.desktop

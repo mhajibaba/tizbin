@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=tizbin restart
+GenericName=tizbin Service
+Comment=service tizbin restart
+TryExec=/etc/init.d/tizbin
+Exec=sh -c "sudo service tizbin restart; bash"
+Icon=utilities-terminal
+Terminal=true
+Categories=System;Monitor;
+Name[en_US]=services-tizbin-restart.desktop

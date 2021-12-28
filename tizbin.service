@@ -1,0 +1,13 @@
+[Unit]
+Description=tizbin
+After=network.target syslog.target
+
+[Service]
+Type=forking
+PrivateTmp=true
+ExecStart=/opt/tizbin/bin/dema -d /opt/tizbin -b sqlite
+Restart=always
+PIDFile=/var/run/dema.pid
+
+[Install]
+WantedBy=multi-user.target

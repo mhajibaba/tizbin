@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=tizbin stop
+GenericName=tizbin Service
+Comment=service tizbin stop
+TryExec=/etc/init.d/tizbin
+Exec=sh -c "sudo service tizbin stop; echo; bash"
+Icon=utilities-terminal
+Terminal=true
+Categories=System;Monitor;
+Name[en_US]=services-tizbin-stop.desktop

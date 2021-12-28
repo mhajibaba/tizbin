@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=tizbin status
+GenericName=tizbin Service
+Comment=service tizbin status
+TryExec=/etc/init.d/tizbin
+Exec=sh -c "sudo service tizbin status; echo; bash"
+Icon=utilities-terminal
+Terminal=true
+Categories=System;Monitor;
+Name[en_US]=services-tizbin-status.desktop

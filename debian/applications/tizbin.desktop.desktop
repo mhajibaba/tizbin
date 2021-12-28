@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=tizbin
+Exec=exo-open --launch WebBrowser http://localhost:9876
+Icon=video-display
+Terminal=false
+Categories=System;Monitor;
+Name[en_US]=tizbin.desktop
