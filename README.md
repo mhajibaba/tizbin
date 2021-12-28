@@ -1,4 +1,13 @@
 # tizbin
+This project enhamced xplico with a new UI. It uses Javascript and Php with a lot of graph and diagrams to show the behaviour of the network terffic. 
+
+## UI
+### stages
+![Alt text](/docimages/stages.png "Tizbin UI Stage")
+
+### dashboard
+![Alt text](/docimages/dashboard.png "Tizbin UI Dashboard")
+
 
 ## Architecture
 ![Alt text](/docimages/arch.png "Tizbin (Xplico) Architecture")
@@ -44,10 +53,4 @@ The default admin username and password are:
  - password: *tizbin*
 ***
 
-## UI
-### stages
-![Alt text](/docimages/stages.png "Tizbin UI Stage")
-
-### dashboard
-![Alt text](/docimages/dashboard.png "Tizbin UI Dashboard")
 
