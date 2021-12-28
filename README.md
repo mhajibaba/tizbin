@@ -1,5 +1,8 @@
 # tizbin
 
+## Architecture
+![Alt text](/docimages/arch.png "Tizbin (Xplico) Architecture")
+
 ## Install on Ubuntu
 
 ```
