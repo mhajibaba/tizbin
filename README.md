@@ -32,11 +32,11 @@ Now open the browser and type http://127.0.0.1:9876/ui/
 ***
 The default username and password are:
 
- - username: tizbin
- - password: tizbin
+ - username: *tizbin*
+ - password: *tizbin*
 
 The default admin username and password are: 
 
- - username: admin
- - password: tizbin
+ - username: *admin*
+ - password: *tizbin*
 ***
