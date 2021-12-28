@@ -1,7 +1,8 @@
 # tizbin
 
-Install on Ubuntu
+## Install on Ubuntu
 
+```
 sudo apt-get update
 sudo apt-get install git
 sudo apt-get install make
@@ -15,24 +16,24 @@ git clone https://github.com/mhajibaba/tizbin.git
 
 cd tizbin
 
-
-
-sudo tcpdump -vvvv -ttt -i ens33 icmp
-tcpdump -s0 -A -w b.cpap -i ens33 -p & tail -f b.cpap > p.cpap 
-
-
+sudo make install 
+```
 
 Run tizbin with web interface with root permission:
+```
 /opt/tizbin/script/sqlite_demo.sh
+```
+And finally restart Apache:
+```
+systemctl restart apache2
+```
 Now open the browser and type http://127.0.0.1:9876/ui/
 
-And finally restart Apache:
-systemctl restart apache2
-
-
+***
 The default username and password are: 
 •	username: tizbin
 •	password: tizbin
 The default admin username and password are: 
 •	username: admin
 •	password: tizbin
+***
