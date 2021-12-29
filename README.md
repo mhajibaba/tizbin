@@ -1,5 +1,5 @@
 # tizbin
-This project enhamced xplico with a new UI. It uses Javascript and Php with a lot of graph and diagrams to show the behaviour of the network terffic. 
+This project enhance xplico with a new UI. It uses Javascript and Php with a lot of graph and diagrams to show the behaviour of the network terffic. 
 
 ## UI
 ### stages
